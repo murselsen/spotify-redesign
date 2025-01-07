@@ -1,0 +1,30 @@
+.menuItem {
+    padding: 7px 128px 7px 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #898989;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    width: fit-content;
+    height: 54px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+.menuItem:hover {
+    color: #E0E0E0;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px 0px #E0E0E0;
+}
+
+.menuItem:hover+svg {
+    fill: #E0E0E0;
+}
+
+.menuItem.active {
+    color: #E0E0E0;
+    background-color: #111111;
+    border-radius: 10px;
+}
