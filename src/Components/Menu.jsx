@@ -7,6 +7,9 @@ const Menu = () => {
       <div className="menu-left">
         <div className="menu-list">
           <MenuItem icon={[434, 262, 491, 262]} title="Home" active={false} />
+          <MenuItem icon={[434, 262, 491, 262]} title="Home" active={false} />
+          <MenuItem icon={[434, 262, 491, 262]} title="Home" active={false} />
+          <MenuItem icon={[434, 262, 491, 262]} title="Home" active={false} />
         </div>
       </div>
       <div className="menu-right"></div>
