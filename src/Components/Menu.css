@@ -1,0 +1,15 @@
+.menu-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left .menu-list {
+    display: flex;
+}
+
+.menu-right .menu-list {
+    display: flex;
+}
